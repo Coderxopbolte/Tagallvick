@@ -121,7 +121,7 @@ async def mentionall(event):
 
 # Cancle 
 
-@VICKUSER_TAGGERBOT.on(events.NewMessage(pattern="^/cancel$"))
+@HwBot.on(events.NewMessage(pattern="^/cancel$"))
 async def cancel_spam(event):
   if not event.chat_id in spam_chats:
     return await event.respond('__There is no proccess on going...__')
@@ -130,11 +130,11 @@ async def cancel_spam(event):
       spam_chats.remove(event.chat_id)
     except:
       pass
-    return await event.respond('**__Stopped__**\n\n**__Powered By:__ VICK_NETWORK**')
+    return await event.respond('**__Stopped__**\n\n**__Powered By:__ HARSHU_NETWORK**')
 
 
 
 
 print("Started Successfully Join Support")
-print("¯\_(ツ)_/¯ Need Help Join @Vick_Support")
-Vickbot.run_until_disconnected()
+print("¯\_(ツ)_/¯ Need Help Join @AdityaServer")
+HwBot.run_until_disconnected()
