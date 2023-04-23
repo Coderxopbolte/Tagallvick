@@ -31,7 +31,7 @@ async def start(event):
                          Button.url('⭐SUPPORT', 'https://t.me/vick_support'), 
                       ], 
                       [
-                        Button.url('➕ ADD ME TO YOUR GROUP', 'https://t.me/VICKUSER_TAGGERBOT?startgroup=true'),   
+                        Button.url('➕ ADD ME TO YOUR GROUP', 'https://t.me/VICK_SUPPORT?startgroup=true'),   
                       ]
                    ), 
                     link_preview=False
