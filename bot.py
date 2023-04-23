@@ -59,7 +59,7 @@ async def help(event):
 #bsdk credit de dena verna maa chod dege
 
 #tag
-@VICKUSER_TAGGERBOT.on(events.NewMessage(pattern="^/tagall|/call|/tall|/all|#all|@all?(.*)"))
+@HwBot.on(events.NewMessage(pattern="^/tagall|/call|/tall|/all|#all|@all?(.*)"))
 async def mentionall(event):
   global moment_worker
   if event.is_private:
