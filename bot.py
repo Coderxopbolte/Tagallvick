@@ -27,11 +27,11 @@ async def start(event):
   await event.reply("^_^ Hey, Welcome To TAG Help Bot's Menu\nI can tag 15,000 Members in Group and 300 Members In Channel.\nNeed Help /help ",
                     buttons=(
                       [
-                         Button.url('📣 UPDATES', 'https://t.me/HwMusicUpdates'), 
-                         Button.url('⭐SUPPORT', 'https://t.me/CFC_BOT_SUPPORT'), 
+                         Button.url('📣 UPDATES', 'https://t.me/VICK_NETWORK'), 
+                         Button.url('⭐SUPPORT', 'https://t.me/vick_support'), 
                       ], 
                       [
-                        Button.url('➕ ADD ME TO YOUR GROUP', 'https://t.me/HwMusicBot?startgroup=true'),   
+                        Button.url('➕ ADD ME TO YOUR GROUP', 'https://t.me/VICKUSER_TAGGERBOT?startgroup=true'),   
                       ]
                    ), 
                     link_preview=False
@@ -44,11 +44,11 @@ async def help(event):
   await event.reply(helptext,
                     buttons=(
                       [
-                         Button.url('📣 UPDATES', 'https://t.me/HwMusicUpdates'), 
-                         Button.url('⭐SUPPORT', 'https://t.me/CFC_BOT_SUPPORT'), 
+                         Button.url('📣 UPDATES', 'https://t.me/VICK_NETWORK'), 
+                         Button.url('⭐SUPPORT', 'https://t.me/VICK_support'), 
                       ], 
                       [
-                        Button.url('➕ ADD ME TO YOUR GROUP', 'https://t.me/HwMusicBot?startgroup=true'),   
+                        Button.url('➕ ADD ME TO YOUR GROUP', 'https://t.me/VICKUSER_TAGGERBOT?startgroup=true'),   
                       ]
                    ), 
                     link_preview=False
@@ -59,7 +59,7 @@ async def help(event):
 #bsdk credit de dena verna maa chod dege
 
 #tag
-@HwBot.on(events.NewMessage(pattern="^/tagall|/call|/tall|/all|#all|@all?(.*)"))
+@VICKUSER_TAGGERBOT.on(events.NewMessage(pattern="^/tagall|/call|/tall|/all|#all|@all?(.*)"))
 async def mentionall(event):
   global moment_worker
   if event.is_private:
